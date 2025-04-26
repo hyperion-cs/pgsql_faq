@@ -311,6 +311,9 @@ _* Стоит заметить, что материалы выше не явля
 2. [Вредные и/или опасные действия в PostgreSQL](https://wiki.postgresql.org/wiki/Don't_Do_This) _(eng)_;
 3. [SQLize — быстрый запуск, эксперименты и обмен кодом SQL](https://sqlize.online/);
 4. [SQLtest — упражнения по SQL](https://sqltest.online/ru);
-5. [Sql-ex.ru — упражнения по SQL](https://www.sql-ex.ru/?Lang=0);
-6. [Официальный FAQ на русском языке](https://wiki.postgresql.org/wiki/FAQ/ru);
-7. [Туториалы по PostgreSQL, примеры использования](https://www.postgresqltutorial.com/) _(eng)_.
+5. LeetCode Database Problems — упражнения по SQL: [базовые задачи](https://leetcode.com/studyplan/top-sql-50/), [все задачи](https://leetcode.com/problem-list/database/) _(eng)_;
+6. [Sql-ex.ru — упражнения по SQL](https://www.sql-ex.ru/?Lang=0);
+7. [Официальный FAQ на русском языке](https://wiki.postgresql.org/wiki/FAQ/ru);
+8. [Neon — туториалы по PostgreSQL, примеры использования](https://neon.tech/postgresql/tutorial) _(eng)_;
+9. [pgPedia — энциклопедия PostgreSQL](https://pgpedia.info/) _(eng)_;
+10. [postgresqlco.nf — описание и управление конфигурацией](https://postgresqlco.nf/) _(eng)_.
