@@ -216,14 +216,15 @@ SELECT * FROM "TableName"; -- OK
 Внутри команды и/или организации важно соблюдать единый стандарт для того чтобы в дальнейшем его было легко читать/поддерживать как вам, так и вашим коллегам.
 
 Если обратиться к примерам [официальной документации](https://www.postgresql.org/docs/) PostgreSQL (которые также имеют некоторое разночтение), то, как правило, им свойственно следующее:
-1. Все [ключевые слова](https://postgrespro.ru/docs/postgresql/17/sql-keywords-appendix),
+1. Почти все [ключевые слова](https://postgrespro.ru/docs/postgresql/17/sql-keywords-appendix),
 включая слова из [DML](https://ru.wikipedia.org/wiki/Data_Manipulation_Language) (_SELECT/INSERT/UPDATE/DELETE_), 
-[DDL](https://postgrespro.ru/docs/postgresql/17/ddl) (_CREATE/ALTER/DROP_)
-а также [DCL](https://ru.wikipedia.org/wiki/Data_Control_Language) (_GRANT/REVOKE_) пишутся в верхнем регистре. Например:
+[DDL](https://postgrespro.ru/docs/postgresql/17/ddl) (_CREATE/ALTER/DROP_),
+[DCL](https://ru.wikipedia.org/wiki/Data_Control_Language) (_GRANT/REVOKE_),
+а также TCL (_COMMIT/ROLLBACK/SAVEPOINT_) пишутся в верхнем регистре. Исключение составляют идентификаторы (см. ниже). Например:
     ```sql
     SELECT * FROM table;
     ```
-2. Идентификаторы (имена таблиц, столбцов, функций и т.д.) в большинстве случаев пишутся в нижнем регистре в формате [snake_case](https://ru.wikipedia.org/wiki/Snake_case). Например:
+2. Идентификаторы (имена таблиц, столбцов, функций, типов и т.д.) в большинстве случаев пишутся в нижнем регистре в формате [snake_case](https://ru.wikipedia.org/wiki/Snake_case). Например:
     ```sql
     SELECT floor(col_name) FROM table;
     ```
